@@ -25,10 +25,10 @@ footer {
 }
 
 nav {
+    position: fixed;
     flex-direction: row;
     height: 42px;
     width: 100%;
-    position: fixed;
     border-bottom: 1px solid lightgray;
     background: white;
 }
@@ -115,7 +115,7 @@ h1 {
 
 article {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 2fr 7fr 2fr;
     max-width: 1200px;
     padding-top: 30px;
     margin: 0 auto 0 auto;
@@ -123,6 +123,15 @@ article {
 
 article > * {
     grid-column: 2 / -2;
+}
+
+.titul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .image1 {
@@ -143,4 +152,14 @@ figcaption {
  span {
     color: #888888;
     font: 14px nyt-imperial;
+ }
+
+ .introd {
+    margin-bottom: 20px;
+    color: #121212;
+    font-family: nyt-franklin;
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+    float: left;
  }
