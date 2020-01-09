@@ -1,0 +1,21 @@
+body {
+    border: 2px solid blue;
+    background-color: cornflowerblue;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    border: 1px solid hsla(39, 94%, 50%, 0.938);
+    background-color: chartreuse;
+}
+
+main {
+    border: 1px solid #ff0000;
+    background-color: rgb(231, 231, 52);
+}
+
+footer {
+    border: 1px solid #008000;
+    background-color: #e2b2e4;
+}
