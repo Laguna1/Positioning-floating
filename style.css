@@ -19,3 +19,8 @@ footer {
     border: 1px solid #008000;
     background-color: #e2b2e4;
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
